@@ -35,7 +35,7 @@ bool cekPrima(int n){
     return true;
 }
 //Mengecek bilangan fibonacci dengan WHILE loop
-bool cekFibonacci(int n){
+bool cekFibonacci(int n){ 
     int a=0, b=1, c=0;
     
     if(n==0 || n==1){
