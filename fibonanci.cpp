@@ -71,3 +71,33 @@ void hasilFibonacci(){
         cout<<"Hasil: "<<angka<<" tidak termasuk deret Fibonacci"<<endl;
     }
 }
+
+int main(){
+    pilihan = -1; //biar masuk ke while pertama kali
+    
+    //Perulangan dengan WHILE untuk menu
+    while(pilihan!=0){
+        tampilMenu();
+        cin>>pilihan;
+        
+        switch(pilihan){
+            case 1:
+                inputAngka();
+                hasilPrima();
+                cout<<endl;
+                break;
+            case 2:
+                inputAngka();
+                hasilFibonacci();
+                cout<<endl;
+                break;
+            case 0:
+                cout<<"Keluar dari program..."<<endl;
+                break;
+            default:
+                cout<<"Pilihan tidak valid!"<<endl;
+                cout<<endl;
+                break;
+        }
+    }
+}
