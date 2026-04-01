@@ -55,7 +55,7 @@ bool cekFibonacci(int n){
 }
 
 //Menampilkan hasil cek bilangan prima
-void hasilPrima(){
+void hasilPrima(){ 
     if(cekPrima(angka)){
         cout<<"Hasil: "<<angka<<" adalah bilangan prima"<<endl;
     }else{
