@@ -47,7 +47,7 @@ bool cekFibonacci(int n){
         if(c==n){
             return true;
         }
-        a=b;
+        a=b; 
         b=c; 
         c=a+b;
     }
