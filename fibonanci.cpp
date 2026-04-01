@@ -53,3 +53,12 @@ bool cekFibonacci(int n){
     }
     return false;
 }
+
+//Menampilkan hasil cek bilangan prima
+void hasilPrima(){
+    if(cekPrima(angka)){
+        cout<<"Hasil: "<<angka<<" adalah bilangan prima"<<endl;
+    }else{
+        cout<<"Hasil: "<<angka<<" bukan bilangan prima"<<endl;
+    }
+}
