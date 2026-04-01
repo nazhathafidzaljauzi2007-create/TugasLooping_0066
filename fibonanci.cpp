@@ -62,3 +62,12 @@ void hasilPrima(){
         cout<<"Hasil: "<<angka<<" bukan bilangan prima"<<endl;
     }
 }
+
+//Menampilkan hasil cek bilangan fibonacci
+void hasilFibonacci(){
+    if(cekFibonacci(angka)){
+        cout<<"Hasil: "<<angka<<" termasuk deret Fibonacci"<<endl;
+    }else{
+        cout<<"Hasil: "<<angka<<" tidak termasuk deret Fibonacci"<<endl;
+    }
+}
