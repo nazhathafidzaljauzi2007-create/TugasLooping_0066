@@ -63,7 +63,7 @@ void hasilPrima(){
     }
 }
 
-//Menampilkan hasil cek bilangan fibonacci
+//Menampilkan hasil cek bilangan fibonacci 
 void hasilFibonacci(){
     if(cekFibonacci(angka)){
         cout<<"Hasil: "<<angka<<" termasuk deret Fibonacci"<<endl;
