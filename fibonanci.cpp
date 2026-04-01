@@ -10,7 +10,7 @@ void tampilMenu(){
     cout<<"1. Cek Bilangan Prima"<<endl;
     cout<<"2. Cek Bilangan Fibonacci"<<endl;
     cout<<"0. Keluar dari program"<<endl;
-    cout<<"Masukkan pilihan: ";
+    cout<<"Masukkan pilihan: "; 
 }
 
 //Fungsi untuk menerima inputan
