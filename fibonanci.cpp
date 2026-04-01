@@ -52,7 +52,7 @@ bool cekFibonacci(int n){
         c=a+b;
     }
     return false;
-}
+} 
 
 //Menampilkan hasil cek bilangan prima
 void hasilPrima(){  
