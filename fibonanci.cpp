@@ -2,7 +2,7 @@
 using namespace std;
 
 int angka;
-int pilihan;
+int pilihan; 
 
 //Fungsi untuk menampilkan menu pilihan
 void tampilMenu(){
